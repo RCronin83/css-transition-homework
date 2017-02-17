@@ -1,56 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-
 main{
-  max-width: 23em;
+  max-width: 24em;
+  float: left;
 }
+
 section {
   border: 3px solid rgb(92, 164, 215);
-  max-width: 23em;
-  display: inline-block;
+
 }
 
 img {
-  width: 20em;
+  width: 21em;
   height: auto;
-  margin: 1em;
+  margin: 1.3em;
 }
 
-nav {
-  margin-bottom: auto;
+ul {
+  border-top: 3px solid rgb(92,164,215);
+  padding-left: 0;
+  margin: 0;
+
 }
 
-aside {
-  display: inline-block;
-  float: left;
-  width: 4.1em;
-  height: 2em;
+li {
+  padding-top: 0.9em;
+  width: 4.3em;
+  height: 2.8em;
   text-align: center;
-  border: 3px solid rgb(92, 164, 215);
   color: rgb(92, 164, 215);
-
 }
+
+li:hover {
+  background-color: rgb(92, 164, 215);
+  color: white;
+}
+
+.refresh {
+  border-right: 3px solid rgb(92,164,215);
+}
+.heart {
+  border-right: 3px solid rgb(92,164,215);
+}
+.size {
+  border-right: 3px solid rgb(92,164,215);
+}
+.color {
+  border-right: 3px solid rgb(92,164,215);
+}
+
+
 
 p {
-  width : 50%;
+  width : 47%;
   float: left;
   color: rgb(92, 164, 215);
-}
-
-.fa-refresh {
-
-}
-.fa-stop {
 
 }
 
 .price {
   text-align: right;
   font-weight: bold;
+  padding-right: 0.5em;
 }
 
-aside:hover {
-  background-color: rgb(92, 164, 215);
-  color: white;
+.name {
+  padding-left: 0.5em;
 }
