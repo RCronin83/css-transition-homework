@@ -49,3 +49,8 @@ p {
   text-align: right;
   font-weight: bold;
 }
+
+aside:hover {
+  background-color: rgb(92, 164, 215);
+  color: white;
+}
